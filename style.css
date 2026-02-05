@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: lightblue;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+section {
+    padding: 3rem 10%;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+
+}
+
+.project-card {
+    background: lightcyan;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+
+
+/* Dark mode */
+.dark {
+    background: #121212;
+    color: #f4f4f4;
+}
+
+.dark header {
+    background: #000;
+}
+
+.dark .project-card {
+    background: #1e1e1e;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+html {
+    scroll-behavior: smooth;
+}
